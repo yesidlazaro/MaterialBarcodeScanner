@@ -2,12 +2,12 @@ apply plugin: 'com.android.library'
 
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
 
     defaultConfig {
-        minSdkVersion 9
-        targetSdkVersion 25
+        minSdkVersion 21
+        targetSdkVersion 27
         versionCode 1
         versionName "0.0.7-ALPHA"
     }
@@ -28,7 +28,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'org.greenrobot:eventbus:3.0.0'
-    compile 'com.android.support:appcompat-v7:25.1.0'
-    compile 'com.google.android.gms:play-services-vision:10.0.1'
-    compile 'com.android.support:design:25.1.0'
+    compile 'com.android.support:appcompat-v7:27.0.2'
+    compile 'com.google.android.gms:play-services-vision:11.8.0'
+    compile 'com.android.support:design:27.0.2'
 }
